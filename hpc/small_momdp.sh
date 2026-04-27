@@ -4,28 +4,19 @@
 #SBATCH --time=12:00:00
 #SBATCH --ntasks=1
 #SBATCH --mem=8gb
-#SBATCH --mail-user=willem.ropke@vub.be
+#SBATCH --mail-user=ahmad.rm0067@gmail.com
 #SBATCH --mail-type=ALL
 #SBATCH --output=logs/output-%A.out
 #SBATCH --error=logs/err-%A.err
 
-# Load the necessary modules.
-module load Python/3.10.4-GCCcore-11.3.0
-module load SciPy-bundle/2022.05-foss-2022a
-module load scikit-learn/1.1.2-foss-2022a
-pip install --user gym
-pip install --user mo-gym
-pip install --user ramo
-pip install --user pymoo
-pip install --user scikit-learn
-pip install --user POT
-pip install --user pulp
+# Activate the virtual environment.
+source /project/6101774/ahmadrm/virtual-environments/dimoq_env/bin/activate
 
 # Define the log directory.
-LOGDIR="${VSC_SCRATCH}/results"
+LOGDIR="/home/ahmadrm/projects/aip-frudzicz/ahmadrm/projects/DIMOQ/hpc/results"
 
 # Run the experiments.
-python3 $VSC_HOME/distributional-dominance/experiments.py \
+python3 /home/ahmadrm/projects/aip-frudzicz/ahmadrm/projects/DIMOQ/experiments.py \
 --log-dir "$LOGDIR" \
 --seed 1 2 3 4 5 \
 --env small \
