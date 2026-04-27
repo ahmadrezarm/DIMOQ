@@ -2,9 +2,7 @@ import argparse
 import os
 import time
 
-import mo_gym
 import numpy as np
-from mo_gym.deep_sea_treasure.deep_sea_treasure import CONCAVE_MAP
 
 from algs.dimoq import DIMOQ
 from algs.modvi import MODVI
@@ -208,6 +206,8 @@ if __name__ == "__main__":
 
         for seed in args.seed:
             if "dst" == env_name:
+                import mo_gym
+                from mo_gym.deep_sea_treasure.deep_sea_treasure import CONCAVE_MAP
                 env = mo_gym.make('deep-sea-treasure-v0', dst_map=CONCAVE_MAP)
                 params = dst_params()
             elif "space-traders" == env_name:

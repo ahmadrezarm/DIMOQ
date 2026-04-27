@@ -80,7 +80,7 @@ def get_best(dist_lst, distance_metric='jensen-shannon', max_dists=10, rng=None)
 
     rng = rng if rng is not None else np.random.default_rng()
     dist_matrix = compute_distance_matrix(dist_lst, distance_metric=distance_metric)
-    clustering = AgglomerativeClustering(n_clusters=max_dists, affinity='precomputed', linkage='average')
+    clustering = AgglomerativeClustering(n_clusters=max_dists, metric='precomputed', linkage='average')
     clustering.fit(dist_matrix)
     keep = []
     for cluster in range(max_dists):

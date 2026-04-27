@@ -1,0 +1,957 @@
+[
+  {
+    "seed": 1,
+    "modvi": {
+      "size": 24,
+      "hypervolume": 54.970743999999996,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 24,
+      "hypervolume": 55.087884,
+      "hv_ratio": 1.0021309516931407,
+      "hausdorff_w2": 0.12577121586741305,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "sweep": {
+      "random": {
+        "1000": {
+          "size": 12,
+          "hypervolume": 56.335662000000006,
+          "hv_ratio": 1.0248298986093405,
+          "hausdorff_w2": 1.3307691297559854,
+          "precision": 1.0,
+          "recall": 0.5
+        },
+        "5000": {
+          "size": 24,
+          "hypervolume": 54.516867,
+          "hv_ratio": 0.9917432989446168,
+          "hausdorff_w2": 0.07626723242355753,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 24,
+          "hypervolume": 54.904447,
+          "hv_ratio": 0.9987939584736201,
+          "hausdorff_w2": 0.07485927271713803,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 24,
+          "hypervolume": 54.91374999999999,
+          "hv_ratio": 0.9989631939491304,
+          "hausdorff_w2": 0.02671039290670121,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.5": {
+        "1000": {
+          "size": 18,
+          "hypervolume": 55.745005,
+          "hv_ratio": 1.0140849649042407,
+          "hausdorff_w2": 0.20018231236044556,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 18,
+          "hypervolume": 54.58007799999999,
+          "hv_ratio": 0.9928932015182476,
+          "hausdorff_w2": 0.10616722445044585,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 24,
+          "hypervolume": 55.265690000000006,
+          "hv_ratio": 1.0053655086058142,
+          "hausdorff_w2": 0.043081318457076065,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 24,
+          "hypervolume": 54.926862,
+          "hv_ratio": 0.9992017208280827,
+          "hausdorff_w2": 0.029270397064439242,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.1": {
+        "1000": {
+          "size": 12,
+          "hypervolume": 55.36835099999999,
+          "hv_ratio": 1.007233065646701,
+          "hausdorff_w2": 1.2903230403885326,
+          "precision": 1.0,
+          "recall": 0.5
+        },
+        "5000": {
+          "size": 12,
+          "hypervolume": 55.455521999999995,
+          "hv_ratio": 1.0088188364341584,
+          "hausdorff_w2": 1.1875101485529036,
+          "precision": 1.0,
+          "recall": 0.5
+        },
+        "25000": {
+          "size": 18,
+          "hypervolume": 55.05102,
+          "hv_ratio": 1.0014603404312665,
+          "hausdorff_w2": 0.131682536242663,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 18,
+          "hypervolume": 54.834024,
+          "hv_ratio": 0.9975128588399678,
+          "hausdorff_w2": 0.11719100499181052,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "scal_0.1": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 49.307309999999994,
+          "hv_ratio": 0.8969736702126498,
+          "hausdorff_w2": 4.248357593309374,
+          "precision": 1.0,
+          "recall": 0.08333333333333333
+        },
+        "5000": {
+          "size": 2,
+          "hypervolume": 48.574242,
+          "hv_ratio": 0.8836380675509868,
+          "hausdorff_w2": 7.0242243752385845,
+          "precision": 0.5,
+          "recall": 0.08333333333333333
+        },
+        "25000": {
+          "size": 2,
+          "hypervolume": 49.000392000000005,
+          "hv_ratio": 0.8913903730318805,
+          "hausdorff_w2": 7.0242243752385845,
+          "precision": 0.5,
+          "recall": 0.08333333333333333
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 48.732839999999996,
+          "hv_ratio": 0.8865232022328094,
+          "hausdorff_w2": 4.239340228067579,
+          "precision": 1.0,
+          "recall": 0.08333333333333333
+        }
+      },
+      "scal_0.9": {
+        "1000": {
+          "size": 2,
+          "hypervolume": 35.219091999999996,
+          "hv_ratio": 0.6406879266542217,
+          "hausdorff_w2": 7.0242243752385845,
+          "precision": 0.5,
+          "recall": 0.20833333333333334
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 37.047222999999995,
+          "hv_ratio": 0.6739443621137818,
+          "hausdorff_w2": 3.786409152388091,
+          "precision": 1.0,
+          "recall": 0.20833333333333334
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 37.085184000000005,
+          "hv_ratio": 0.6746349294453793,
+          "hausdorff_w2": 3.7731813562222505,
+          "precision": 1.0,
+          "recall": 0.20833333333333334
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 36.640682999999996,
+          "hv_ratio": 0.6665487918446219,
+          "hausdorff_w2": 3.7849700808757314,
+          "precision": 1.0,
+          "recall": 0.20833333333333334
+        }
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "modvi": {
+      "size": 4,
+      "hypervolume": 38.592956,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 4,
+      "hypervolume": 38.569019999999995,
+      "hv_ratio": 0.9993797831915232,
+      "hausdorff_w2": 0.02232905394314715,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "sweep": {
+      "random": {
+        "1000": {
+          "size": 4,
+          "hypervolume": 39.60156999999999,
+          "hv_ratio": 1.0261346656109986,
+          "hausdorff_w2": 0.18203533477562667,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 4,
+          "hypervolume": 39.145968,
+          "hv_ratio": 1.0143293506721798,
+          "hausdorff_w2": 0.1161751916191967,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 4,
+          "hypervolume": 38.339392,
+          "hv_ratio": 0.9934297854769144,
+          "hausdorff_w2": 0.05718794501594528,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 4,
+          "hypervolume": 38.668980000000005,
+          "hv_ratio": 1.0019698931587413,
+          "hausdorff_w2": 0.021829647715797512,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.5": {
+        "1000": {
+          "size": 4,
+          "hypervolume": 37.98939,
+          "hv_ratio": 0.9843607211637274,
+          "hausdorff_w2": 0.1000506761225996,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 4,
+          "hypervolume": 38.23082800000001,
+          "hv_ratio": 0.990616733271222,
+          "hausdorff_w2": 0.07778101505850578,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 4,
+          "hypervolume": 38.51324000000001,
+          "hv_ratio": 0.997934441715219,
+          "hausdorff_w2": 0.08962856732164473,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 4,
+          "hypervolume": 38.67087000000001,
+          "hv_ratio": 1.0020188658261888,
+          "hausdorff_w2": 0.023335618047525097,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.1": {
+        "1000": {
+          "size": 4,
+          "hypervolume": 39.79023000000001,
+          "hv_ratio": 1.0310231224578912,
+          "hausdorff_w2": 0.28381080568521877,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 4,
+          "hypervolume": 38.895483999999996,
+          "hv_ratio": 1.0078389434590083,
+          "hausdorff_w2": 0.05658559574134212,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 4,
+          "hypervolume": 38.314812,
+          "hv_ratio": 0.9927928816854559,
+          "hausdorff_w2": 0.27459675265278166,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 4,
+          "hypervolume": 38.511525000000006,
+          "hv_ratio": 0.9978900035540166,
+          "hausdorff_w2": 0.021981564231725894,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "scal_0.1": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 30.658404,
+          "hv_ratio": 0.7944041394496965,
+          "hausdorff_w2": 4.644684502330143,
+          "precision": 1.0,
+          "recall": 0.25
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 31.035149999999998,
+          "hv_ratio": 0.8041661799629963,
+          "hausdorff_w2": 4.697673981909171,
+          "precision": 1.0,
+          "recall": 0.25
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 30.718714000000006,
+          "hv_ratio": 0.7959668598590894,
+          "hausdorff_w2": 4.680254942241835,
+          "precision": 1.0,
+          "recall": 0.25
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 30.537876,
+          "hv_ratio": 0.7912810824856225,
+          "hausdorff_w2": 4.675620165539023,
+          "precision": 1.0,
+          "recall": 0.25
+        }
+      },
+      "scal_0.9": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 36.504608,
+          "hv_ratio": 0.9458878454399813,
+          "hausdorff_w2": 4.24506305253461,
+          "precision": 1.0,
+          "recall": 0.25
+        },
+        "5000": {
+          "size": 2,
+          "hypervolume": 35.272845000000004,
+          "hv_ratio": 0.9139710624913003,
+          "hausdorff_w2": 4.337272384060617,
+          "precision": 0.5,
+          "recall": 0.25
+        },
+        "25000": {
+          "size": 2,
+          "hypervolume": 35.413956000000006,
+          "hv_ratio": 0.9176274551241943,
+          "hausdorff_w2": 5.9083657006642065,
+          "precision": 0.5,
+          "recall": 0.25
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 35.358692000000005,
+          "hv_ratio": 0.9161954839634467,
+          "hausdorff_w2": 4.214481120877296,
+          "precision": 1.0,
+          "recall": 0.25
+        }
+      }
+    }
+  },
+  {
+    "seed": 3,
+    "modvi": {
+      "size": 3,
+      "hypervolume": 51.168283,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 3,
+      "hypervolume": 51.12920899999998,
+      "hv_ratio": 0.9992363628851877,
+      "hausdorff_w2": 0.018973665961010293,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "sweep": {
+      "random": {
+        "1000": {
+          "size": 3,
+          "hypervolume": 51.271086999999994,
+          "hv_ratio": 1.0020091352293372,
+          "hausdorff_w2": 0.24033310217279671,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 3,
+          "hypervolume": 51.295639,
+          "hv_ratio": 1.002488963719967,
+          "hausdorff_w2": 0.037947331922020544,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 3,
+          "hypervolume": 51.120484,
+          "hv_ratio": 0.999065847099071,
+          "hausdorff_w2": 0.015811388300841913,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 3,
+          "hypervolume": 51.12920899999998,
+          "hv_ratio": 0.9992363628851877,
+          "hausdorff_w2": 0.018973665961010293,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.5": {
+        "1000": {
+          "size": 3,
+          "hypervolume": 51.072496,
+          "hv_ratio": 0.9981280005037495,
+          "hausdorff_w2": 0.2150348808914499,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 3,
+          "hypervolume": 51.127917,
+          "hv_ratio": 0.9992111128684931,
+          "hausdorff_w2": 0.04427188724235735,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 3,
+          "hypervolume": 51.135408999999996,
+          "hv_ratio": 0.999357531695953,
+          "hausdorff_w2": 0.01264911064067353,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 3,
+          "hypervolume": 51.177195999999995,
+          "hv_ratio": 1.000174189937153,
+          "hausdorff_w2": 0.01897366596101012,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.1": {
+        "1000": {
+          "size": 3,
+          "hypervolume": 50.128028,
+          "hv_ratio": 0.9796699256060634,
+          "hausdorff_w2": 0.5091267032871091,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 3,
+          "hypervolume": 50.94861300000001,
+          "hv_ratio": 0.9957069108611678,
+          "hausdorff_w2": 0.09486832980505139,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 3,
+          "hypervolume": 51.139697,
+          "hv_ratio": 0.9994413336089467,
+          "hausdorff_w2": 0.04427188724235735,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 3,
+          "hypervolume": 51.123533,
+          "hv_ratio": 0.9991254347932683,
+          "hausdorff_w2": 0.018973665961010293,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "scal_0.1": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 48.065071999999994,
+          "hv_ratio": 0.9393528408995079,
+          "hausdorff_w2": 4.785267333338031,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 48.49719999999999,
+          "hv_ratio": 0.9477980724895535,
+          "hausdorff_w2": 4.847243072647612,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 48.338032,
+          "hv_ratio": 0.9446873955102225,
+          "hausdorff_w2": 4.824002170406519,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 48.351428,
+          "hv_ratio": 0.9449491983149013,
+          "hausdorff_w2": 4.825938912259944,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        }
+      },
+      "scal_0.9": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 37.064707000000006,
+          "hv_ratio": 0.724368785249253,
+          "hausdorff_w2": 5.0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 36.930842999999996,
+          "hv_ratio": 0.7217526333646958,
+          "hausdorff_w2": 5.0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 36.930842999999996,
+          "hv_ratio": 0.7217526333646958,
+          "hausdorff_w2": 5.0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 36.997763,
+          "hv_ratio": 0.7230604747866954,
+          "hausdorff_w2": 5.0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333
+        }
+      }
+    }
+  },
+  {
+    "seed": 4,
+    "modvi": {
+      "size": 28,
+      "hypervolume": 102.584114,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 28,
+      "hypervolume": 102.259114,
+      "hv_ratio": 0.9968318681389596,
+      "hausdorff_w2": 0.036982903712301535,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "sweep": {
+      "random": {
+        "1000": {
+          "size": 26,
+          "hypervolume": 104.50008400000002,
+          "hv_ratio": 1.0186770633901465,
+          "hausdorff_w2": 0.41353659638297235,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 28,
+          "hypervolume": 101.357347,
+          "hv_ratio": 0.9880413550191602,
+          "hausdorff_w2": 0.1770620793794368,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 28,
+          "hypervolume": 102.76510400000001,
+          "hv_ratio": 1.0017643082631684,
+          "hausdorff_w2": 0.07665045712814131,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 28,
+          "hypervolume": 102.718111,
+          "hv_ratio": 1.0013062158922579,
+          "hausdorff_w2": 0.04971454764168114,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.5": {
+        "1000": {
+          "size": 28,
+          "hypervolume": 105.57229,
+          "hv_ratio": 1.0291290325907576,
+          "hausdorff_w2": 0.5064033260238859,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 28,
+          "hypervolume": 103.29861700000001,
+          "hv_ratio": 1.006965045289566,
+          "hausdorff_w2": 0.17950572541699866,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 28,
+          "hypervolume": 102.64290400000002,
+          "hv_ratio": 1.0005730906834174,
+          "hausdorff_w2": 0.11528725367670631,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 28,
+          "hypervolume": 102.563308,
+          "hv_ratio": 0.9997971810723053,
+          "hausdorff_w2": 0.03783765326729867,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.1": {
+        "1000": {
+          "size": 17,
+          "hypervolume": 101.50397799999999,
+          "hv_ratio": 0.9894707283819792,
+          "hausdorff_w2": 3.502584645778538,
+          "precision": 0.9411764705882353,
+          "recall": 0.5714285714285714
+        },
+        "5000": {
+          "size": 18,
+          "hypervolume": 101.38443199999999,
+          "hv_ratio": 0.9883053822544102,
+          "hausdorff_w2": 3.2840287765064904,
+          "precision": 1.0,
+          "recall": 0.6428571428571429
+        },
+        "25000": {
+          "size": 28,
+          "hypervolume": 101.41877600000001,
+          "hv_ratio": 0.988640170933289,
+          "hausdorff_w2": 0.10697474215818076,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 28,
+          "hypervolume": 102.94774100000001,
+          "hv_ratio": 1.0035446716437986,
+          "hausdorff_w2": 0.062210077838406874,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "scal_0.1": {
+        "1000": {
+          "size": 2,
+          "hypervolume": 93.84102,
+          "hv_ratio": 0.9147714625677812,
+          "hausdorff_w2": 6.59272317972932,
+          "precision": 0.5,
+          "recall": 0.17857142857142858
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 92.39436799999999,
+          "hv_ratio": 0.9006693570507417,
+          "hausdorff_w2": 6.698753447180993,
+          "precision": 1.0,
+          "recall": 0.14285714285714285
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 92.765728,
+          "hv_ratio": 0.904289410736637,
+          "hausdorff_w2": 6.683510906023366,
+          "precision": 1.0,
+          "recall": 0.14285714285714285
+        },
+        "100000": {
+          "size": 3,
+          "hypervolume": 92.265935,
+          "hv_ratio": 0.8994173795759448,
+          "hausdorff_w2": 9.807989928852228,
+          "precision": 0.3333333333333333,
+          "recall": 0.14285714285714285
+        }
+      },
+      "scal_0.9": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 81.971008,
+          "hv_ratio": 0.7990614219273756,
+          "hausdorff_w2": 5.25212896238293,
+          "precision": 1.0,
+          "recall": 0.14285714285714285
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 80.11275,
+          "hv_ratio": 0.7809469407709658,
+          "hausdorff_w2": 5.159290362622149,
+          "precision": 1.0,
+          "recall": 0.10714285714285714
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 81.231612,
+          "hv_ratio": 0.79185371723345,
+          "hausdorff_w2": 5.212258765776252,
+          "precision": 1.0,
+          "recall": 0.14285714285714285
+        },
+        "100000": {
+          "size": 2,
+          "hypervolume": 80.44264799999999,
+          "hv_ratio": 0.7841628188161764,
+          "hausdorff_w2": 9.807989928852228,
+          "precision": 0.5,
+          "recall": 0.10714285714285714
+        }
+      }
+    }
+  },
+  {
+    "seed": 5,
+    "modvi": {
+      "size": 6,
+      "hypervolume": 5.877951999999999,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 6,
+      "hypervolume": 5.955858,
+      "hv_ratio": 1.0132539360648065,
+      "hausdorff_w2": 0.03400000000000003,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "sweep": {
+      "random": {
+        "1000": {
+          "size": 5,
+          "hypervolume": 5.7848820000000005,
+          "hv_ratio": 0.9841662538244617,
+          "hausdorff_w2": 0.3737630682607943,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 6,
+          "hypervolume": 6.256672,
+          "hv_ratio": 1.0644306044009888,
+          "hausdorff_w2": 0.15599999999999997,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 6,
+          "hypervolume": 5.98245,
+          "hv_ratio": 1.0177779607591217,
+          "hausdorff_w2": 0.033999999999999864,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 6,
+          "hypervolume": 5.814658,
+          "hv_ratio": 0.9892319637860263,
+          "hausdorff_w2": 0.030000000000000027,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.5": {
+        "1000": {
+          "size": 6,
+          "hypervolume": 5.850561999999999,
+          "hv_ratio": 0.9953402137343075,
+          "hausdorff_w2": 0.18361213687173306,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 6,
+          "hypervolume": 5.78845,
+          "hv_ratio": 0.9847732679681633,
+          "hausdorff_w2": 0.13954760408610611,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 6,
+          "hypervolume": 6.013249999999999,
+          "hv_ratio": 1.0230178810578925,
+          "hausdorff_w2": 0.09489726727135746,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 6,
+          "hypervolume": 5.883168,
+          "hv_ratio": 1.0008873839051426,
+          "hausdorff_w2": 0.0291189518707393,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "eps_0.1": {
+        "1000": {
+          "size": 5,
+          "hypervolume": 6.533602,
+          "hv_ratio": 1.11154395272367,
+          "hausdorff_w2": 0.7859526003388332,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "5000": {
+          "size": 6,
+          "hypervolume": 5.965249999999999,
+          "hv_ratio": 1.0148517715013665,
+          "hausdorff_w2": 0.5483333253948979,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "25000": {
+          "size": 6,
+          "hypervolume": 5.940552,
+          "hv_ratio": 1.0106499678799694,
+          "hausdorff_w2": 0.1726947934714505,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "100000": {
+          "size": 6,
+          "hypervolume": 5.965249999999999,
+          "hv_ratio": 1.0148517715013665,
+          "hausdorff_w2": 0.04200000000000004,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "scal_0.1": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 4.581191999999999,
+          "hv_ratio": 0.779385745239158,
+          "hausdorff_w2": 3.5300792736789472,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 4.661249999999999,
+          "hv_ratio": 0.7930057952157487,
+          "hausdorff_w2": 3.547740337709052,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 4.719777999999999,
+          "hv_ratio": 0.8029630048016724,
+          "hausdorff_w2": 3.5605847479127632,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 4.6466579999999995,
+          "hv_ratio": 0.7905232979105649,
+          "hausdorff_w2": 3.544529235158124,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        }
+      },
+      "scal_0.9": {
+        "1000": {
+          "size": 1,
+          "hypervolume": 4.52,
+          "hv_ratio": 0.7689753165728472,
+          "hausdorff_w2": 2.6897020446722646,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        },
+        "5000": {
+          "size": 1,
+          "hypervolume": 4.448,
+          "hv_ratio": 0.7567261522380586,
+          "hausdorff_w2": 2.6808430315217464,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        },
+        "25000": {
+          "size": 1,
+          "hypervolume": 4.516,
+          "hv_ratio": 0.7682948074431368,
+          "hausdorff_w2": 2.682820942452605,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        },
+        "100000": {
+          "size": 1,
+          "hypervolume": 4.532,
+          "hv_ratio": 0.7710168439619788,
+          "hausdorff_w2": 2.6800819758566763,
+          "precision": 1.0,
+          "recall": 0.16666666666666666
+        }
+      }
+    }
+  }
+]

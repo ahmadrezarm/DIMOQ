@@ -1,0 +1,1 @@
+{"ref_point": [0, 0], "gamma": 1.0, "initial_epsilon": 1.0, "epsilon_decay": 0.9975, "final_epsilon": 0.1, "num_atoms": [21, 21], "v_mins": [0.0, 0.0], "v_maxs": [20.0, 20.0], "max_dists": 20, "num_threads": 1, "seed": 1, "dds_size": 4, "duration": 0.4735987186431885}

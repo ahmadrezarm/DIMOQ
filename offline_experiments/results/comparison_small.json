@@ -1,0 +1,147 @@
+[
+  {
+    "seed": 1,
+    "online_time_s": 64.51,
+    "offline_time_s": 2.83,
+    "modvi": {
+      "size": 24,
+      "hypervolume": 54.970743999999996,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 24,
+      "hypervolume": 55.087884,
+      "hv_ratio": 1.0021309516931407,
+      "hausdorff_w2": 0.12577121586741305,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "offline": {
+      "size": 24,
+      "hypervolume": 55.087884,
+      "hv_ratio": 1.0021309516931407,
+      "hausdorff_w2": 0.12577121586741305,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  {
+    "seed": 2,
+    "online_time_s": 37.37,
+    "offline_time_s": 1.92,
+    "modvi": {
+      "size": 4,
+      "hypervolume": 38.592956,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 4,
+      "hypervolume": 38.569019999999995,
+      "hv_ratio": 0.9993797831915232,
+      "hausdorff_w2": 0.02232905394314715,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "offline": {
+      "size": 4,
+      "hypervolume": 38.569019999999995,
+      "hv_ratio": 0.9993797831915232,
+      "hausdorff_w2": 0.02232905394314715,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  {
+    "seed": 3,
+    "online_time_s": 38.24,
+    "offline_time_s": 2.0,
+    "modvi": {
+      "size": 3,
+      "hypervolume": 51.168283,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 3,
+      "hypervolume": 51.12920899999998,
+      "hv_ratio": 0.9992363628851877,
+      "hausdorff_w2": 0.018973665961010293,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "offline": {
+      "size": 3,
+      "hypervolume": 51.12920899999998,
+      "hv_ratio": 0.9992363628851877,
+      "hausdorff_w2": 0.018973665961010293,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  {
+    "seed": 4,
+    "online_time_s": 76.83,
+    "offline_time_s": 3.01,
+    "modvi": {
+      "size": 28,
+      "hypervolume": 102.584114,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 28,
+      "hypervolume": 102.259114,
+      "hv_ratio": 0.9968318681389596,
+      "hausdorff_w2": 0.036982903712301535,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "offline": {
+      "size": 28,
+      "hypervolume": 102.259114,
+      "hv_ratio": 0.9968318681389596,
+      "hausdorff_w2": 0.036982903712301535,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  {
+    "seed": 5,
+    "online_time_s": 40.97,
+    "offline_time_s": 1.77,
+    "modvi": {
+      "size": 6,
+      "hypervolume": 5.877951999999999,
+      "hv_ratio": 1.0,
+      "hausdorff_w2": 0.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "online": {
+      "size": 6,
+      "hypervolume": 5.955858,
+      "hv_ratio": 1.0132539360648065,
+      "hausdorff_w2": 0.03400000000000003,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "offline": {
+      "size": 6,
+      "hypervolume": 5.955858,
+      "hv_ratio": 1.0132539360648065,
+      "hausdorff_w2": 0.03400000000000003,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  }
+]

@@ -33,14 +33,14 @@ def load_dists(dir_path, dist_class):
             with open(os.path.join(dir_path, file_name), 'r') as f:
                 dist_data = json.load(f)
 
-        num_atoms = np.array(dist_data['num_atoms'])
-        v_mins = np.array(dist_data['v_mins'])
-        v_maxs = np.array(dist_data['v_maxs'])
-        name = dist_data['name']
-        vecs = dist_data['dist']['vecs']
-        probs = dist_data['dist']['probs']
-        dist = dist_class(num_atoms, v_mins, v_maxs, name=name, vecs=vecs, probs=probs)
-        dists.append(dist)
+            num_atoms = np.array(dist_data['num_atoms'])
+            v_mins = np.array(dist_data['v_mins'])
+            v_maxs = np.array(dist_data['v_maxs'])
+            name = dist_data['name']
+            vecs = dist_data['dist']['vecs']
+            probs = dist_data['dist']['probs']
+            dist = dist_class(num_atoms, v_mins, v_maxs, name=name, vecs=vecs, probs=probs)
+            dists.append(dist)
 
     return dists
 
